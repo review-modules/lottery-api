@@ -1,9 +1,8 @@
 module.exports = (req, res) => {
   let obj = {
-    url:
-      "https://github.com/lomocc/lottery/releases/download/latest/app-universal-release.apk",
-    versionCode: 4,
-    updateMessage: "1. 适配 Android 8.0\n2. 适配 Android 9.0\n3. 更新说明"
+    browser_download_url:
+      "http://github.lomo.cc/lomocc/lottery-release/releases/download/v0.0.2/app-armeabi-v7a-release.apk",
+    version_code: 1048578
   };
   res.status(200).send(obj);
 };
